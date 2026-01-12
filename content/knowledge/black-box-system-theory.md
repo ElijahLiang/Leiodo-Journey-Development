@@ -36,9 +36,9 @@ TocOpen: true
 ### 2.2 动态交互循环（Dynamic Interaction Loop）
 
 ```
-主体 → 动态交互过程 → 输出/过程的一部分
-  ↑                           ↓
-  ←←←← 塑造主体 ←←←←←←←←←←←←←
+Subject → Dynamic Interaction → Output / Part of Process
+   ↑                                    ↓
+   ←←←← Shapes Subject ←←←←←←←←←←←←←←←←
 ```
 
 - 主体与黑盒交互
@@ -153,13 +153,13 @@ TocOpen: true
 
 ## 九、符号说明
 
-```
-█ = 黑盒（Black Box）
-→ = 输入/注入方向
-↔ = 双向交互
-? = 不可知的输出/算法
-⟳ = 动态循环
-```
+| Symbol | Meaning |
+|--------|---------|
+| █ | Black Box |
+| → | Input / Injection Direction |
+| ↔ | Bidirectional Interaction |
+| ? | Unknown Output / Algorithm |
+| ⟳ | Dynamic Loop |
 
 ---
 

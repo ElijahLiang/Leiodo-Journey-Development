@@ -18,30 +18,30 @@ TocOpen: true
 ## 技术架构图
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                      用户界面层 (UI)                         │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────────────────┐│
-│  │  React 18   │ │ Tailwind CSS│ │     Framer Motion       ││
-│  │  组件系统   │ │   样式框架   │ │       动画库            ││
-│  └─────────────┘ └─────────────┘ └─────────────────────────┘│
-├─────────────────────────────────────────────────────────────┤
-│                    应用框架层 (Framework)                    │
-│  ┌─────────────────────────────────────────────────────────┐│
-│  │                    Next.js 14                           ││
-│  │     (React 框架 + 路由 + SSG 静态导出 + API Routes)     ││
-│  └─────────────────────────────────────────────────────────┘│
-├─────────────────────────────────────────────────────────────┤
-│                     多平台部署层                             │
-│  ┌──────────────┐ ┌──────────────┐ ┌──────────────────────┐ │
-│  │   Electron   │ │  Capacitor   │ │     Web Browser      │ │
-│  │  Windows/Mac │ │  iOS/Android │ │       浏览器         │ │
-│  └──────────────┘ └──────────────┘ └──────────────────────┘ │
-├─────────────────────────────────────────────────────────────┤
-│                      AI 服务层                               │
-│  ┌─────────────────────────────────────────────────────────┐│
-│  │              DeepSeek API (大语言模型)                   ││
-│  └─────────────────────────────────────────────────────────┘│
-└─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                      UI Layer                                |
+|  +-----------+ +-------------+ +---------------------------+ |
+|  | React 18  | | Tailwind CSS| |     Framer Motion         | |
+|  | Components| | Styling     | |     Animation             | |
+|  +-----------+ +-------------+ +---------------------------+ |
++-------------------------------------------------------------+
+|                    Framework Layer                           |
+|  +---------------------------------------------------------+ |
+|  |                    Next.js 14                           | |
+|  |     (React + Router + SSG Export + API Routes)          | |
+|  +---------------------------------------------------------+ |
++-------------------------------------------------------------+
+|                   Multi-Platform Layer                       |
+|  +------------+ +--------------+ +------------------------+  |
+|  |  Electron  | |  Capacitor   | |     Web Browser        |  |
+|  | Win / Mac  | | iOS/Android  | |                        |  |
+|  +------------+ +--------------+ +------------------------+  |
++-------------------------------------------------------------+
+|                      AI Service Layer                        |
+|  +---------------------------------------------------------+ |
+|  |              DeepSeek API (LLM)                         | |
+|  +---------------------------------------------------------+ |
++-------------------------------------------------------------+
 ```
 
 ---
@@ -77,46 +77,46 @@ TocOpen: true
 ## 项目目录结构
 
 ```
-边界项目/
-├── src/                    # 源代码目录
-│   ├── app/               # Next.js App Router 页面
-│   │   ├── api/chat/     # API 路由 (后端接口)
-│   │   ├── page.tsx      # 主页面
-│   │   ├── layout.tsx    # 根布局
-│   │   └── globals.css   # 全局样式
-│   ├── components/        # React 组件
+boundary-project/
+├── src/                    # Source code
+│   ├── app/               # Next.js App Router pages
+│   │   ├── api/chat/     # API routes (backend)
+│   │   ├── page.tsx      # Main page
+│   │   ├── layout.tsx    # Root layout
+│   │   └── globals.css   # Global styles
+│   ├── components/        # React components
 │   │   ├── StartScreen.tsx
 │   │   ├── ChatInput.tsx
 │   │   └── ...
-│   ├── lib/               # 工具函数和配置
-│   │   ├── characters.ts  # 角色定义
-│   │   └── aiEngine.ts    # AI 引擎
-│   └── types/             # TypeScript 类型定义
+│   ├── lib/               # Utilities and config
+│   │   ├── characters.ts  # Character definitions
+│   │   └── aiEngine.ts    # AI engine
+│   └── types/             # TypeScript types
 │       └── game.ts
-├── public/                 # 静态资源
-│   ├── avatars/           # 角色头像
-│   └── backgrounds/       # 背景图片
-├── electron/               # Electron 主进程代码
+├── public/                 # Static assets
+│   ├── avatars/           # Character avatars
+│   └── backgrounds/       # Background images
+├── electron/               # Electron main process
 │   └── main.js
-├── package.json            # 项目配置和依赖
-├── tailwind.config.js      # Tailwind 配置
-├── next.config.js          # Next.js 配置
-└── tsconfig.json           # TypeScript 配置
+├── package.json            # Project config
+├── tailwind.config.js      # Tailwind config
+├── next.config.js          # Next.js config
+└── tsconfig.json           # TypeScript config
 ```
 
 ---
 
 ## 核心技术要点
 
-### React 组件设计
+### React Component Design
 
 ```tsx
-// 函数组件 + Hooks
+// Function Component + Hooks
 const ChatMessage: React.FC<MessageProps> = ({ content, role }) => {
   const [isTyping, setIsTyping] = useState(false);
   
   useEffect(() => {
-    // 打字机效果
+    // Typewriter effect
   }, [content]);
   
   return (
@@ -130,10 +130,10 @@ const ChatMessage: React.FC<MessageProps> = ({ content, role }) => {
 };
 ```
 
-### AI API 集成
+### AI API Integration
 
 ```typescript
-// DeepSeek API 调用
+// DeepSeek API call
 const response = await fetch('/api/chat', {
   method: 'POST',
   body: JSON.stringify({

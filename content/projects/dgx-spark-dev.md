@@ -46,22 +46,22 @@ DGX Spark 使用 **ARM64 (aarch64)** 架构，与常见的 x86_64 有所不同�
 
 ## 2. 网络与代理配置
 
-### 代理设置
+### Proxy Setup
 
 ```bash
-# 设置代理环境变量
+# Set proxy environment variables
 export http_proxy="http://proxy:port"
 export https_proxy="http://proxy:port"
 export no_proxy="localhost,127.0.0.1"
 
-# 永久配置（加入 ~/.bashrc）
+# Permanent config (add to ~/.bashrc)
 echo 'export http_proxy="http://proxy:port"' >> ~/.bashrc
 ```
 
-### Docker 代理配置
+### Docker Proxy Config
 
 ```bash
-# 创建 Docker 代理配置
+# Create Docker proxy config
 mkdir -p ~/.docker
 cat > ~/.docker/config.json << EOF
 {
@@ -107,26 +107,26 @@ docker run -p 8888:8888 -v $(pwd):/workspace jupyter/pytorch-notebook
 
 ## 4. AI 大模型部署
 
-### 使用 vLLM 部署
+### Deploy with vLLM
 
 ```bash
-# 安装 vLLM
+# Install vLLM
 pip install vllm
 
-# 启动模型服务
+# Start model server
 python -m vllm.entrypoints.openai.api_server \
     --model /path/to/model \
     --host 0.0.0.0 \
     --port 8000
 ```
 
-### 使用 Ollama
+### Use Ollama
 
 ```bash
-# 安装 Ollama
+# Install Ollama
 curl -fsSL https://ollama.com/install.sh | sh
 
-# 运行模型
+# Run model
 ollama run llama2
 ```
 
@@ -134,24 +134,24 @@ ollama run llama2
 
 ## 5. Unity ML-Agents 训练
 
-### 环境准备
+### Environment Setup
 
 ```bash
-# 创建 conda 环境
+# Create conda environment
 conda create -n mlagents python=3.10
 conda activate mlagents
 
-# 安装 ML-Agents
+# Install ML-Agents
 pip install mlagents
 ```
 
-### 训练流程
+### Training Flow
 
 ```bash
-# 开始训练
+# Start training
 mlagents-learn config/trainer_config.yaml --run-id=experiment_01
 
-# 恢复训练
+# Resume training
 mlagents-learn config/trainer_config.yaml --run-id=experiment_01 --resume
 ```
 
@@ -176,40 +176,40 @@ behaviors:
 
 ## 6. Linux 常用指令
 
-### 系统监控
+### System Monitor
 
 ```bash
-# GPU 状态
+# GPU status
 nvidia-smi
 watch -n 1 nvidia-smi
 
-# 系统资源
+# System resources
 htop
 free -h
 df -h
 ```
 
-### 进程管理
+### Process Management
 
 ```bash
-# 后台运行
+# Run in background
 nohup python train.py > output.log 2>&1 &
 
-# 查看后台任务
+# List background jobs
 jobs -l
 ps aux | grep python
 
-# 终止进程
+# Kill process
 kill -9 <PID>
 ```
 
-### 文件操作
+### File Operations
 
 ```bash
-# 查找文件
+# Find files
 find . -name "*.py" -type f
 
-# 传输文件
+# Transfer files
 scp local_file user@dgx:/remote/path/
 rsync -avz ./data/ user@dgx:/remote/data/
 ```
