@@ -1,0 +1,128 @@
+baseURL: "https://ElijahLiang.github.io/blog/"
+languageCode: en-us
+title: Elijah's Tech Blog
+theme: PaperMod
+
+# 构建设置
+buildFuture: true
+
+# 启用 emoji 支持
+enableEmoji: true
+
+# 分页设置
+pagination:
+  pagerSize: 10
+
+# 构建配置
+minify:
+  disableXML: true
+
+params:
+  # 网站描述
+  description: "Exploring AI, Game Development, and Creative Coding"
+  author: Yibin Liang
+  
+  # 首页展示模式 - 显示文章列表
+  profileMode:
+    enabled: true
+    title: "👋 Welcome to Elijah's Tech Blog"
+    subtitle: >
+      I'm passionate about **Embodied AI**, **Game Development**, and **Creative Coding**.
+      Here I share my journey in building intelligent agents, exploring VLM/LLM technologies, 
+      and creating interactive experiences.
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # 社交链接
+  socialIcons:
+    - name: github
+      url: "https://github.com/ElijahLiang"
+    - name: email
+      url: "mailto:your-email@example.com"
+
+  # 搜索功能
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  # 显示设置
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  # 主题设置
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  # 封面图片
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  # 代码高亮
+  assets:
+    disableHLJS: true
+
+# 菜单配置
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 50
+
+# 输出格式
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Markdown 渲染配置
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
