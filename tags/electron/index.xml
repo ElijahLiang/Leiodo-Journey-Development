@@ -5,15 +5,22 @@
     <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/electron/</link>
     <description>Recent content in Electron on Leido&#39;s Journey</description>
     <generator>Hugo -- 0.146.0</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/electron/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>边界 / Boundary 项目技术栈</title>
+      <title>Boundary Project Tech Stack</title>
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</guid>
-      <description>AI 心理健康互动游戏的全栈技术架构，支持 Web、桌面端和移动端多平台。</description>
+      <description>Technical architecture and implementation details of the Boundary AI-driven mental health game.</description>
+    </item>
+    <item>
+      <title>Building Desktop Apps with Electron</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/electron-desktop-apps/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/electron-desktop-apps/</guid>
+      <description>Creating cross-platform desktop applications using Electron with Next.js static export.</description>
     </item>
   </channel>
 </rss>

@@ -5,15 +5,15 @@
     <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/linux/</link>
     <description>Recent content in Linux on Leido&#39;s Journey</description>
     <generator>Hugo -- 0.146.0</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DGX Spark 开发实践手册</title>
+      <title>DGX Spark Development Cookbook</title>
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/dgx-spark-dev/</link>
-      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/dgx-spark-dev/</guid>
-      <description>在 NVIDIA DGX Spark (Grace Blackwell) 上进行 AI 开发和模型部署的实践经验。</description>
+      <description>Comprehensive guide for setting up and developing on NVIDIA DGX Spark with ARM64 architecture.</description>
     </item>
   </channel>
 </rss>

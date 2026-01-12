@@ -5,15 +5,15 @@
     <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</link>
     <description>Recent content in VLM on Leido&#39;s Journey</description>
     <generator>Hugo -- 0.146.0</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>具身智能开发之旅：从 Raycast 到 VLM</title>
+      <title>My Embodied AI Development Journey</title>
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</link>
-      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</guid>
-      <description>探索具身 AI 的旅程——从启发式方法到视觉语言模型的演进。</description>
+      <description>A chronicle of building intelligent NPCs in Unity, from heuristic hacks to vision-language models.</description>
     </item>
   </channel>
 </rss>

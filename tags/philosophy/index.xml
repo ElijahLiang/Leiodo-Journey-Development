@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Philosophy on Leido&#39;s Journey</title>
+    <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/philosophy/</link>
+    <description>Recent content in Philosophy on Leido&#39;s Journey</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Black Box System Theory</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/black-box-system-theory/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/black-box-system-theory/</guid>
+      <description>A framework for understanding and interacting with complex systems when internal mechanisms are unknown or irrelevant.</description>
+    </item>
+    <item>
+      <title>Block Universe Theory (Eternalism)</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/block-universe-theory/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/block-universe-theory/</guid>
+      <description>Understanding time as a four-dimensional structure where past, present, and future all exist simultaneously.</description>
+    </item>
+    <item>
+      <title>Life Types Comparison: Carbon-Based, Digital, and Information Life</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/life-types-comparison/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/life-types-comparison/</guid>
+      <description>Exploring the essential differences between carbon-based life, digital life, and theoretical information-based life forms.</description>
+    </item>
+  </channel>
+</rss>
