@@ -5,15 +5,36 @@
     <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/react/</link>
     <description>Recent content in React on Leido&#39;s Journey</description>
     <generator>Hugo -- 0.146.0</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>边界 / Boundary 项目技术栈</title>
+      <title>Boundary Project Tech Stack</title>
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</guid>
-      <description>AI 心理健康互动游戏的全栈技术架构，支持 Web、桌面端和移动端多平台。</description>
+      <description>Technical architecture and implementation details of the Boundary AI-driven mental health game.</description>
+    </item>
+    <item>
+      <title>Framer Motion for Game UI Animations</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/framer-motion-animations/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/framer-motion-animations/</guid>
+      <description>Creating smooth, declarative animations in React game interfaces using Framer Motion.</description>
+    </item>
+    <item>
+      <title>Next.js App Router for Game Development</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/nextjs-app-router/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/nextjs-app-router/</guid>
+      <description>Using Next.js App Router for full-stack game development with static export and API routes.</description>
+    </item>
+    <item>
+      <title>React Fundamentals for Game UI</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/react-fundamentals/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/react-fundamentals/</guid>
+      <description>Core React concepts applied to building game interfaces - components, state, hooks, and more.</description>
     </item>
   </channel>
 </rss>

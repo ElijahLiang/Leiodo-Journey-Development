@@ -1,33 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>💻 项目经验 on Leido&#39;s Journey</title>
+    <title>💻 Projects on Leido&#39;s Journey</title>
     <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/</link>
-    <description>Recent content in 💻 项目经验 on Leido&#39;s Journey</description>
+    <description>Recent content in 💻 Projects on Leido&#39;s Journey</description>
     <generator>Hugo -- 0.146.0</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>具身智能开发之旅：从 Raycast 到 VLM</title>
-      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</link>
-      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</guid>
-      <description>探索具身 AI 的旅程——从启发式方法到视觉语言模型的演进。</description>
-    </item>
-    <item>
-      <title>DGX Spark 开发实践手册</title>
+      <title>DGX Spark Development Cookbook</title>
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/dgx-spark-dev/</link>
-      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/dgx-spark-dev/</guid>
-      <description>在 NVIDIA DGX Spark (Grace Blackwell) 上进行 AI 开发和模型部署的实践经验。</description>
+      <description>Comprehensive guide for setting up and developing on NVIDIA DGX Spark with ARM64 architecture.</description>
     </item>
     <item>
-      <title>边界 / Boundary 项目技术栈</title>
+      <title>Boundary Project Tech Stack</title>
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</guid>
-      <description>AI 心理健康互动游戏的全栈技术架构，支持 Web、桌面端和移动端多平台。</description>
+      <description>Technical architecture and implementation details of the Boundary AI-driven mental health game.</description>
+    </item>
+    <item>
+      <title>AI API Integration for Game NPCs</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/ai-api-integration/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/ai-api-integration/</guid>
+      <description>Integrating large language model APIs for intelligent NPC dialogue in games.</description>
+    </item>
+    <item>
+      <title>Building Desktop Apps with Electron</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/electron-desktop-apps/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/electron-desktop-apps/</guid>
+      <description>Creating cross-platform desktop applications using Electron with Next.js static export.</description>
+    </item>
+    <item>
+      <title>Framer Motion for Game UI Animations</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/framer-motion-animations/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/framer-motion-animations/</guid>
+      <description>Creating smooth, declarative animations in React game interfaces using Framer Motion.</description>
+    </item>
+    <item>
+      <title>Next.js App Router for Game Development</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/nextjs-app-router/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/nextjs-app-router/</guid>
+      <description>Using Next.js App Router for full-stack game development with static export and API routes.</description>
+    </item>
+    <item>
+      <title>React Fundamentals for Game UI</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/react-fundamentals/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/react-fundamentals/</guid>
+      <description>Core React concepts applied to building game interfaces - components, state, hooks, and more.</description>
+    </item>
+    <item>
+      <title>My Embodied AI Development Journey</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</guid>
+      <description>A chronicle of building intelligent NPCs in Unity, from heuristic hacks to vision-language models.</description>
     </item>
   </channel>
 </rss>

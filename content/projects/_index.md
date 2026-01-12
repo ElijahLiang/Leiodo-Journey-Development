@@ -1,12 +1,6 @@
 ---
-title: "💻 项目经验"
-description: "开发项目总结与技术栈实践"
+title: "💻 Projects"
+description: "Development projects and technical experiences in AI, game development, and full-stack applications"
 ---
 
-这里记录我的开发项目经验、技术栈学习和实践总结。
-
-## 主要项目
-
-- **边界 / Boundary** - AI 心理健康互动游戏的技术栈
-- **DGX Spark 开发** - NVIDIA DGX 平台的开发实践
-- **具身智能** - VLM/LLM 驱动的智能体开发
+Documentation of my hands-on development experiences and project summaries.

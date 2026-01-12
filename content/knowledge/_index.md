@@ -1,12 +1,6 @@
 ---
-title: "📚 个人知识库"
-description: "系统理论、认知方法论与哲学思考"
+title: "📚 Knowledge Base"
+description: "Personal knowledge repository covering systems thinking, philosophy, and technical foundations"
 ---
 
-这里记录我对复杂系统、认知科学和哲学的思考与探索。
-
-## 主要内容
-
-- **黑盒系统理论** - 探索世界作为不可知系统的本质
-- **复杂系统管理** - 如何应对指数复杂度的实践方法
-- **时空观念与块宇宙** - 物理学与哲学的交汇
+A collection of theoretical frameworks and methodologies I've explored and documented.

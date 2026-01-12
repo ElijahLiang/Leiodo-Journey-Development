@@ -1,21 +1,16 @@
 ---
-title: "边界 / Boundary 项目技术栈"
-date: 2025-12-01
-draft: false
-tags: ["React", "Next.js", "TypeScript", "Electron", "AI", "游戏开发"]
-categories: ["项目经验"]
-summary: "AI 心理健康互动游戏的全栈技术架构，支持 Web、桌面端和移动端多平台。"
-showToc: true
-TocOpen: true
+title: "Boundary Project Tech Stack"
+date: 2025-11-20
+tags: ["React", "Next.js", "TypeScript", "Electron", "AI", "game-development"]
+categories: ["Projects"]
+summary: "Technical architecture and implementation details of the Boundary AI-driven mental health game."
 ---
 
-## 项目简介
+## Project Overview
 
-「边界 / Boundary」是一款 **AI 心理健康互动游戏**，玩家可以与多个角色进行对话，体验不同的社交场景。项目采用现代全栈技术构建，支持 **Web**、**桌面端（Windows/Mac）** 和 **移动端（iOS/Android）** 多平台运行。
+**Boundary** is an AI-driven mental health interactive game that uses large language models (LLMs) to create realistic NPC characters. Players interact with virtual characters through dialogue, exploring topics of interpersonal relationships, emotional expression, and psychological adjustment.
 
----
-
-## 技术架构图
+## Technical Architecture
 
 ```
 +-------------------------------------------------------------+
@@ -44,37 +39,7 @@ TocOpen: true
 +-------------------------------------------------------------+
 ```
 
----
-
-## 技术栈速查表
-
-| 领域 | 技术 | 用途 |
-|------|------|------|
-| **前端框架** | React 18 | UI 组件化开发 |
-| **元框架** | Next.js 14 | React 应用框架 |
-| **类型系统** | TypeScript | 静态类型检查 |
-| **样式** | Tailwind CSS | 原子化 CSS |
-| **动画** | Framer Motion | React 动画库 |
-| **桌面端** | Electron | 跨平台桌面应用 |
-| **移动端** | Capacitor | 跨平台移动应用 |
-| **AI API** | DeepSeek | 大语言模型调用 |
-
----
-
-## 学习路径推荐
-
-> 建议按照以下顺序学习：
-
-1. **Node.js 与 npm** - 环境搭建
-2. **React 基础** - 组件、状态、Hook
-3. **TypeScript** - 类型系统
-4. **Next.js** - 框架进阶
-5. **Tailwind CSS** - 样式方案
-6. **Electron / Capacitor** - 平台打包
-
----
-
-## 项目目录结构
+## Project Structure
 
 ```
 boundary-project/
@@ -104,11 +69,11 @@ boundary-project/
 └── tsconfig.json           # TypeScript config
 ```
 
----
+## Core Technologies
 
-## 核心技术要点
+### React 18
 
-### React Component Design
+React is a JavaScript UI library for building user interfaces using a **component-based** approach.
 
 ```tsx
 // Function Component + Hooks
@@ -130,6 +95,64 @@ const ChatMessage: React.FC<MessageProps> = ({ content, role }) => {
 };
 ```
 
+### Next.js 14
+
+Next.js adds server-side rendering, file-system routing, and API routes to React.
+
+Key features used:
+- **App Router**: File-based routing system
+- **Static Export**: Generate pure static files for multi-platform distribution
+- **API Routes**: Backend endpoints for AI integration
+
+### TypeScript
+
+Strong typing improves code quality and developer experience.
+
+```typescript
+export type DifficultyLevel = 'paradise' | 'normal' | 'hell';
+
+export interface Character {
+  id: string;
+  name: string;
+  nameZh: string;
+  sprite: string;
+  expressions: Record<string, string>;
+  systemPrompts: Record<DifficultyLevel, string>;
+}
+```
+
+### Tailwind CSS
+
+Utility-first CSS framework for rapid styling:
+
+```tsx
+<button className="
+  w-64 py-4 rounded-xl
+  bg-gradient-to-r from-emerald-500 to-cyan-500
+  text-white text-lg font-bold
+  shadow-lg shadow-emerald-500/30
+  hover:shadow-xl hover:scale-105
+  transition-all duration-300
+">
+  Paradise Mode
+</button>
+```
+
+### Framer Motion
+
+Animation library for React with declarative API:
+
+```tsx
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  exit={{ opacity: 0, y: -20 }}
+  transition={{ duration: 0.5 }}
+>
+  {content}
+</motion.div>
+```
+
 ### AI API Integration
 
 ```typescript
@@ -143,15 +166,28 @@ const response = await fetch('/api/chat', {
 });
 ```
 
+## Cross-Platform Strategy
+
+### "Write Once, Run Everywhere"
+
+1. Build with Next.js static export (`output: 'export'`)
+2. Wrap with Electron for desktop (Windows/Mac)
+3. Wrap with Capacitor for mobile (iOS/Android)
+4. Deploy as web app for browsers
+
+### Challenge: API Routes in Static Export
+
+Static export doesn't include API routes, so we implement a local HTTP server in Electron's main process to handle API requests.
+
+## Learning Resources
+
+- [React Documentation](https://react.dev/)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Electron](https://www.electronjs.org/docs)
+
 ---
 
-## 关键收获
-
-1. **组件化思维** - 将 UI 拆分为可复用的独立单元
-2. **类型安全** - TypeScript 让大型项目更易维护
-3. **跨平台策略** - 一套代码，多端部署
-4. **AI 集成** - LLM API 的最佳实践
-
----
-
-*项目持续迭代中...*
+**Last Updated**: 2025-11-20

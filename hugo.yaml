@@ -1,50 +1,50 @@
 baseURL: "https://ElijahLiang.github.io/Leiodo-Journey-Development/"
-languageCode: zh-cn
+languageCode: en-US
 title: Leido's Journey
 theme: PaperMod
 
-# 构建设置
+# Build settings
 buildFuture: true
 
-# 启用 emoji 支持
+# Enable emoji support
 enableEmoji: true
 
-# 分页设置
+# Pagination settings
 pagination:
   pagerSize: 10
 
-# 构建配置
+# Build configuration
 minify:
   disableXML: true
 
 params:
-  # 网站描述
-  description: "探索 AI、游戏开发与创意编程的旅程"
+  # Website description
+  description: "A Journey Through AI, Game Development & Creative Coding"
   author: Leido
   
-  # 首页展示模式
+  # Homepage display mode
   profileMode:
     enabled: true
     title: "🚀 Leido's Journey"
     subtitle: >
-      探索 **具身智能**、**游戏开发** 与 **复杂系统理论**。
-      记录我在构建智能体、研究 VLM/LLM 技术以及创造交互体验的旅程。
+      Exploring **Embodied AI**, **Game Development** & **Complex Systems Theory**.
+      Documenting my journey in building intelligent agents, researching VLM/LLM technologies, and creating interactive experiences.
     buttons:
-      - name: 📚 知识库
+      - name: 📚 Knowledge Base
         url: knowledge
-      - name: 💻 项目经验
+      - name: 💻 Projects
         url: projects
-      - name: 🏷️ 标签
+      - name: 🏷️ Tags
         url: tags
 
-  # 社交链接
+  # Social links
   socialIcons:
     - name: github
       url: "https://github.com/ElijahLiang"
     - name: email
       url: "mailto:your-email@example.com"
 
-  # 搜索功能
+  # Search functionality
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -54,7 +54,7 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-  # 显示设置
+  # Display settings
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -71,56 +71,56 @@ params:
   showtoc: true
   tocopen: false
 
-  # 主题设置
+  # Theme settings
   defaultTheme: auto
   disableThemeToggle: false
 
-  # 封面图片
+  # Cover images
   cover:
     hidden: false
     hiddenInList: false
     hiddenInSingle: false
 
-  # 代码高亮
+  # Code highlighting
   assets:
     disableHLJS: true
 
-# 菜单配置
+# Menu configuration
 menu:
   main:
     - identifier: home
-      name: 首页
+      name: Home
       url: /
       weight: 10
     - identifier: knowledge
-      name: 📚 知识库
+      name: 📚 Knowledge
       url: /knowledge/
       weight: 20
     - identifier: projects
-      name: 💻 项目
+      name: 💻 Projects
       url: /projects/
       weight: 30
     - identifier: archives
-      name: 归档
+      name: Archives
       url: /archives/
       weight: 40
     - identifier: search
-      name: 搜索
+      name: Search
       url: /search/
       weight: 50
     - identifier: tags
-      name: 标签
+      name: Tags
       url: /tags/
       weight: 60
 
-# 输出格式
+# Output formats
 outputs:
   home:
     - HTML
     - RSS
     - JSON
 
-# Markdown 渲染配置
+# Markdown rendering configuration
 markup:
   highlight:
     codeFences: true

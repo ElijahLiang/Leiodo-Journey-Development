@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Embodied-Intelligence on Leido&#39;s Journey</title>
+    <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/embodied-intelligence/</link>
+    <description>Recent content in Embodied-Intelligence on Leido&#39;s Journey</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/embodied-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Embodied AI Development Journey</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</guid>
+      <description>A chronicle of building intelligent NPCs in Unity, from heuristic hacks to vision-language models.</description>
+    </item>
+  </channel>
+</rss>

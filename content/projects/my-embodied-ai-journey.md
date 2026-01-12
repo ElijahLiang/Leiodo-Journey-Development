@@ -1,109 +1,104 @@
 ---
-title: "具身智能开发之旅：从 Raycast 到 VLM"
-date: 2026-01-13
-draft: false
-tags: ["具身智能", "VLM", "LLM", "Unity", "游戏开发"]
-categories: ["项目经验"]
-summary: "探索具身 AI 的旅程——从启发式方法到视觉语言模型的演进。"
-cover:
-  image: ""
-  alt: "Embodied AI Journey"
-  caption: "The evolution of AI perception"
-  relative: false
-showToc: true
-TocOpen: false
+title: "My Embodied AI Development Journey"
+date: 2025-01-10
+tags: ["Unity", "AI", "VLM", "LLM", "embodied-intelligence", "game-development"]
+categories: ["Projects"]
+summary: "A chronicle of building intelligent NPCs in Unity, from heuristic hacks to vision-language models."
 ---
 
-## Introduction
+## Overview
 
-This project represents a solitary yet enlightening journey into Embodied AI. Starting in November 2025, I attempted to drive an NPC using LLMs within Unity. What began as a simple experiment evolved into a deep exploration of how AI can truly "see" and understand its environment.
+This project represents a solitary yet enlightening journey into Embodied AI. The goal: create NPCs that can truly perceive, reason, and act in a 3D game environment.
 
-## The Beginning: Heuristic Approaches
+## Development Timeline
 
-My initial approach relied on heuristic hacks like **Raycast** for perception:
+### Phase 1: LLM-Driven NPCs (November 2025)
 
-```csharp
-// Traditional approach - Raycast-based perception
-RaycastHit hit;
-if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
-{
-    string objectName = hit.collider.gameObject.name;
-    // Convert to text description for LLM
-}
-```
+**Initial Approach**: Use Large Language Models to drive NPC behavior in Unity.
 
-This resulted in:
-- ❌ Poor navigation
-- ❌ Lack of true spatial awareness
-- ❌ Brittle behavior trees
+**Method**: Heuristic hacks like Raycast for perception
 
-I briefly detoured into **ML-Agents**, only to realize that reinforcement learning created a "conditioned subject" — functional but incapable of the generalization I sought.
+**Result**: Poor navigation and lack of true spatial awareness
 
-## The Breakthrough: Vision-Language Models
+**Lessons Learned**:
+- Text-only LLMs cannot truly understand 3D space
+- Raycast-based perception is brittle and limited
+- Need a way for AI to "see" the environment
 
-The breakthrough came in December with the integration of **Vision-Language Models (VLM)**. By connecting a first-person camera to Qwen-VL-Plus, the agent gained the ability to truly "see":
+### ML-Agents Detour
 
-```
-PERCEPTION PIPELINE:
-Camera → RenderTexture → PNG Bytes → Base64 → VLM API → Scene Description
-```
+**Attempt**: Use Unity's ML-Agents for reinforcement learning
 
-The VLM doesn't just detect objects — it understands spatial relationships, context, and even subtle visual cues.
+**Realization**: RL creates a "conditioned subject" - functional but incapable of generalization
 
-## The Current State: End-to-End Loop
+**Problem**: Training environment-specific behaviors doesn't transfer to new scenarios
 
-In January 2026, I successfully achieved an end-to-end loop:
+### Phase 2: VLM Integration (December 2025)
 
-1. **Perceive**: VLM interprets first-person visual input
-2. **Reason**: LLM processes scene description with context
-3. **Act**: Agent executes specific behaviors
-4. **Express**: Emotional responses through animations
+**Breakthrough**: Integration of Vision-Language Models (VLM)
 
-### Architecture Overview
+**Key Innovation**: The agent can now truly "see" by processing camera frames
 
-```
-┌─────────────────┐    ┌──────────────────┐    ┌────────────────┐
-│  Unity Camera   │───▶│  Qwen-VL (VLM)   │───▶│  DeepSeek LLM  │
-│  512x512 PNG    │    │  Scene Analysis   │    │  Decision      │
-└─────────────────┘    └──────────────────┘    └────────────────┘
-                                                       │
-                                                       ▼
-                                              ┌────────────────┐
-                                              │  Action Layer  │
-                                              │  GO_TO/EXPLORE │
-                                              │  STOP/EMOTION  │
-                                              └────────────────┘
-```
+**Architecture**:
+- Unity captures game view
+- VLM processes visual input
+- LLM reasons about observations
+- Actions sent back to Unity
 
-## Key Learnings
+### Phase 3: End-to-End Loop (January 2026)
 
-### 1. Perception is Everything
-Without true visual understanding, AI agents are fundamentally limited. VLMs bridge the gap between raw pixels and semantic understanding.
+**Achievement**: Complete perception-reasoning-action loop
 
-### 2. Memory Matters
-The agent maintains three types of memory:
-- **Environmental**: Known objects, visited places
-- **Dialogue**: Conversation history
-- **Goals**: Current task, sub-goals
+**Capabilities**:
+- Perceives environment through vision
+- Reasons about observations
+- Reacts with specific behaviors and emotions
+- Facial expressions and walking animations
+- Avatar that can interact with players
 
-### 3. Emergent Behaviors
-With proper perception, behaviors emerge naturally:
-- Curiosity-driven exploration
-- Memory-informed avoidance
-- Context-aware responses
+**Current Limitations**:
+- Hardware constraints require script-driven action layer
+- Full VLA (Vision-Language-Action) implementation not yet possible
+- Models and scenes still rough
+- Some bugs to overcome
 
-## What's Next
+## Technical Architecture
 
-While hardware constraints currently necessitate a script-driven action layer (preventing a full VLA implementation), this prototype validates the core architecture. Future explorations include:
+The system follows a multi-layer design:
 
-- **World Models**: Predicting future states
-- **Sim2Real**: Transferring to physical robots
-- **Multi-agent**: Collaborative AI behaviors
+1. **Perception Layer**: Camera capture → VLM processing
+2. **Cognition Layer**: LLM reasoning about visual observations
+3. **Action Layer**: Script-driven behaviors (temporary solution)
+4. **Expression Layer**: Emotion and animation control
 
-## Conclusion
+## Challenges Encountered
 
-This journey taught me that the key to intelligent agents isn't more complex behavior trees — it's giving them the ability to truly perceive and understand their world. The combination of VLM + LLM provides a powerful foundation for creating agents that feel genuinely intelligent.
+### 3D Embodiment
+Implementing embodiment in 3D scenes proved much more challenging than anticipated:
+- Walking navigation
+- Database setup for knowledge persistence
+- Real-time communication between Unity and AI backend
+
+### Hardware Constraints
+Current hardware doesn't support full end-to-end VLA models, requiring a hybrid approach with scripted action execution.
+
+## Future Directions
+
+1. **World Models**: Explore predictive models for better planning
+2. **Sim2Real Robotics**: Transfer learnings to physical robots
+3. **New Game Scenes**: Implement complete game designs
+4. **Open Theater Game Theory**: Use this NPC system to support interactive narrative experiments
+
+## Reflections
+
+This prototype validates the core architecture for embodied AI in games. While not yet a complete VLA system, it demonstrates that:
+
+- Vision gives AI true spatial awareness
+- LLM reasoning can drive meaningful behavior
+- Emotion and expression add depth to interactions
+
+The basic requirements are now met, and future game designs can be realized in new scenes, providing support for the Open Theater Game Theory.
 
 ---
 
-*This article is part of my [Embodied Intelligence Project](/projects/embodied-ai). Check out the demos and technical documentation there.*
+**Last Updated**: 2025-01-10
