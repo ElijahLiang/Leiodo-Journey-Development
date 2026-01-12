@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Electron on Leido&#39;s Journey</title>
+    <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/electron/</link>
+    <description>Recent content in Electron on Leido&#39;s Journey</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/electron/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>边界 / Boundary 项目技术栈</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</guid>
+      <description>AI 心理健康互动游戏的全栈技术架构，支持 Web、桌面端和移动端多平台。</description>
+    </item>
+  </channel>
+</rss>

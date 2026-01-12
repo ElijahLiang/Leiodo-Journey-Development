@@ -1,6 +1,6 @@
 baseURL: "https://ElijahLiang.github.io/Leiodo-Journey-Development/"
-languageCode: en-us
-title: Elijah's Tech Blog
+languageCode: zh-cn
+title: Leido's Journey
 theme: PaperMod
 
 # 构建设置
@@ -19,21 +19,22 @@ minify:
 
 params:
   # 网站描述
-  description: "Exploring AI, Game Development, and Creative Coding"
-  author: Yibin Liang
+  description: "探索 AI、游戏开发与创意编程的旅程"
+  author: Leido
   
-  # 首页展示模式 - 显示文章列表
+  # 首页展示模式
   profileMode:
     enabled: true
-    title: "👋 Welcome to Elijah's Tech Blog"
+    title: "🚀 Leido's Journey"
     subtitle: >
-      I'm passionate about **Embodied AI**, **Game Development**, and **Creative Coding**.
-      Here I share my journey in building intelligent agents, exploring VLM/LLM technologies, 
-      and creating interactive experiences.
+      探索 **具身智能**、**游戏开发** 与 **复杂系统理论**。
+      记录我在构建智能体、研究 VLM/LLM 技术以及创造交互体验的旅程。
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
+      - name: 📚 知识库
+        url: knowledge
+      - name: 💻 项目经验
+        url: projects
+      - name: 🏷️ 标签
         url: tags
 
   # 社交链接
@@ -88,25 +89,29 @@ params:
 menu:
   main:
     - identifier: home
-      name: Home
+      name: 首页
       url: /
       weight: 10
-    - identifier: posts
-      name: Posts
-      url: /posts/
+    - identifier: knowledge
+      name: 📚 知识库
+      url: /knowledge/
       weight: 20
-    - identifier: archives
-      name: Archives
-      url: /archives/
+    - identifier: projects
+      name: 💻 项目
+      url: /projects/
       weight: 30
-    - identifier: search
-      name: Search
-      url: /search/
+    - identifier: archives
+      name: 归档
+      url: /archives/
       weight: 40
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: search
+      name: 搜索
+      url: /search/
       weight: 50
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 60
 
 # 输出格式
 outputs:
