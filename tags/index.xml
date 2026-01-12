@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Elijah&#39;s Tech Blog</title>
+    <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/</link>
+    <description>Recent content in Tags on Elijah&#39;s Tech Blog</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embodied AI</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/embodied-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/embodied-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Development</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/game-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/game-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/llm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/unity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/unity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VLM</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
