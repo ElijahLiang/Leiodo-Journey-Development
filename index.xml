@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Elijah&#39;s Tech Blog</title>
+    <title>Leido&#39;s Journey</title>
     <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/</link>
-    <description>Recent content on Elijah&#39;s Tech Blog</description>
+    <description>Recent content on Leido&#39;s Journey</description>
     <generator>Hugo -- 0.146.0</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Journey into Embodied AI: From Raycast to VLM</title>
-      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/posts/my-embodied-ai-journey/</link>
+      <title>具身智能开发之旅：从 Raycast 到 VLM</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</link>
       <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/posts/my-embodied-ai-journey/</guid>
-      <description>A reflection on my exploration of Embodied AI - from heuristic hacks to vision-language models.</description>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/my-embodied-ai-journey/</guid>
+      <description>探索具身 AI 的旅程——从启发式方法到视觉语言模型的演进。</description>
+    </item>
+    <item>
+      <title>黑盒系统理论 (Black Box System Theory)</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/black-box-system-theory/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/black-box-system-theory/</guid>
+      <description>世界是黑盒，主体也是黑盒。探索不可知系统的本体论与认识论框架。</description>
+    </item>
+    <item>
+      <title>DGX Spark 开发实践手册</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/dgx-spark-dev/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/dgx-spark-dev/</guid>
+      <description>在 NVIDIA DGX Spark (Grace Blackwell) 上进行 AI 开发和模型部署的实践经验。</description>
+    </item>
+    <item>
+      <title>边界 / Boundary 项目技术栈</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/boundary-tech-stack/</guid>
+      <description>AI 心理健康互动游戏的全栈技术架构，支持 Web、桌面端和移动端多平台。</description>
+    </item>
+    <item>
+      <title>混沌系统管理方法</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/chaos-system-management/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/chaos-system-management/</guid>
+      <description>面对复杂系统时如何避免决策瘫痪？五大核心策略将指数复杂度降至线性。</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>📚 个人知识库 on Leido&#39;s Journey</title>
+    <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/</link>
+    <description>Recent content in 📚 个人知识库 on Leido&#39;s Journey</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>黑盒系统理论 (Black Box System Theory)</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/black-box-system-theory/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/black-box-system-theory/</guid>
+      <description>世界是黑盒，主体也是黑盒。探索不可知系统的本体论与认识论框架。</description>
+    </item>
+    <item>
+      <title>混沌系统管理方法</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/chaos-system-management/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/chaos-system-management/</guid>
+      <description>面对复杂系统时如何避免决策瘫痪？五大核心策略将指数复杂度降至线性。</description>
+    </item>
+  </channel>
+</rss>
