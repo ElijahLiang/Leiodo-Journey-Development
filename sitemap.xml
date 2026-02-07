@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/papers/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/categories/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/embodied-ai/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/game-ai/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/llm/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/npc/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/categories/papers/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/prompt-engineering/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/unity3d/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/papers/yangguang-vision-driven-npcs/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -18,9 +57,6 @@
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/block-universe-theory/</loc>
-    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/categories/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/chaos-system-management/</loc>
@@ -56,9 +92,6 @@
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/categories/knowledge-base/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/</loc>
-    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/knowledge/life-types-comparison/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -90,9 +123,6 @@
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/systems-thinking/</loc>
-    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/task-management/</loc>
@@ -152,9 +182,6 @@
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/javascript/</loc>
     <lastmod>2025-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/llm/</loc>
-    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/projects/nextjs-app-router/</loc>
     <lastmod>2025-11-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -171,9 +198,6 @@
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/unity/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ElijahLiang.github.io/Leiodo-Journey-Development/archives/</loc>

@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Leido&#39;s Journey</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embodied-AI</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/embodied-ai/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/embodied-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game-AI</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/game-ai/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/game-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/llm/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NPC</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/npc/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/npc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt-Engineering</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/prompt-engineering/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/prompt-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity3D</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/unity3d/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/unity3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VLM</title>
+      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/ai/</link>
@@ -240,13 +289,6 @@
       <description></description>
     </item>
     <item>
-      <title>LLM</title>
-      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/llm/</link>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Node.js</title>
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/node.js/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
@@ -265,13 +307,6 @@
       <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/unity/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/unity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VLM</title>
-      <link>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</link>
-      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ElijahLiang.github.io/Leiodo-Journey-Development/tags/vlm/</guid>
       <description></description>
     </item>
   </channel>
