@@ -34,6 +34,8 @@ params:
         url: knowledge
       - name: 💻 Projects
         url: projects
+      - name: 📄 Papers
+        url: papers
       - name: 🏷️ Tags
         url: tags
 
@@ -100,6 +102,10 @@ menu:
       name: 💻 Projects
       url: /projects/
       weight: 30
+    - identifier: papers
+      name: 📄 Papers
+      url: /papers/
+      weight: 35
     - identifier: archives
       name: Archives
       url: /archives/

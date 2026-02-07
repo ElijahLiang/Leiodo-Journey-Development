@@ -1,0 +1,106 @@
+<section class="notion-hero" aria-label="开场流程动效">
+  <div class="hero-title">
+    <h2>Design Methodology</h2>
+    <div class="hint">Dao · Fa · Shu · Qi · Execute</div>
+  </div>
+
+  <svg viewBox="0 0 960 420" preserveAspectRatio="xMidYMid meet" role="img" aria-label="五步方法论曲线图">
+    <defs>
+      <!-- Reusable stick figure with backpack -->
+      <g id="person" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="0" cy="-24" r="7" />
+        <path d="M 0 -17 V 6" />
+        <path d="M -12 -8 L 0 -2 L 12 -10" />
+        <path d="M -10 24 L 0 6 L 10 24" />
+        <rect x="-15" y="-14" width="10" height="14" rx="2.5" />
+        <path d="M -11 -4 L 0 -2" />
+      </g>
+
+      <!-- Soft glow for runner -->
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="4" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+    </defs>
+
+    <!-- Soft shadow under curve -->
+    <path
+      class="hero-path-shadow"
+      d="M 55 310
+         C 80 160 220 70 310 90
+         C 440 118 560 320 480 340
+         C 390 362 310 280 350 190
+         C 395 95 540 75 660 85
+         C 760 92 850 60 910 45" />
+
+    <!-- The main spiral path -->
+    <path
+      class="hero-path"
+      d="M 55 310
+         C 80 160 220 70 310 90
+         C 440 118 560 320 480 340
+         C 390 362 310 280 350 190
+         C 395 95 540 75 660 85
+         C 760 92 850 60 910 45" />
+
+    <!-- Runner dot with glow -->
+    <circle class="runner" r="6" cx="0" cy="0" filter="url(#glow)">
+      <animateMotion
+        dur="2.2s"
+        begin="0.3s"
+        fill="freeze"
+        calcMode="spline"
+        keySplines="0.25 0.1 0.25 1"
+        keyTimes="0;1"
+        path="M 55 310
+              C 80 160 220 70 310 90
+              C 440 118 560 320 480 340
+              C 390 362 310 280 350 190
+              C 395 95 540 75 660 85
+              C 760 92 850 60 910 45" />
+    </circle>
+
+    <!-- Step 1: Origin (bottom-left) — text to the right -->
+    <g class="step step-1" transform="translate(55 310)">
+      <use href="#person" transform="translate(0 -30)" />
+      <text class="n" x="28" y="12">1</text>
+      <text class="t" x="54" y="12">DAO · The Way</text>
+      <text class="s" x="54" y="28">Values-driven · WHY</text>
+    </g>
+
+    <!-- Step 2: First peak — text above, clear of downward curve -->
+    <g class="step step-2" transform="translate(310 90)">
+      <use href="#person" transform="translate(0 -30)" />
+      <text class="n" x="-50" y="-66">2</text>
+      <text class="t" x="-24" y="-66">FA · Principles</text>
+      <text class="s" x="-24" y="-50">Idea generation · WHAT</text>
+    </g>
+
+    <!-- Step 3: Crossing inflection — text below, clear of ascending curve -->
+    <g class="step step-3" transform="translate(350 190)">
+      <use href="#person" transform="translate(0 -30)" />
+      <text class="n" x="28" y="40">3</text>
+      <text class="t" x="54" y="40">SHU · Techniques</text>
+      <text class="s" x="54" y="56">Knowledge linking · HOW</text>
+    </g>
+
+    <!-- Step 4: Second ascent — text below, space from step 5 -->
+    <g class="step step-4" transform="translate(660 85)">
+      <use href="#person" transform="translate(0 -30)" />
+      <text class="n" x="-8" y="42">4</text>
+      <text class="t" x="18" y="42">QI · Tools</text>
+      <text class="s" x="18" y="58">Technical implementation · WITH WHAT</text>
+    </g>
+
+    <!-- Step 5: Endpoint — person below curve, text upper-left -->
+    <g class="step step-5" transform="translate(910 45)">
+      <use href="#person" transform="translate(0 45)" />
+      <text class="n" x="-105" y="-8">5</text>
+      <text class="t" x="-78" y="-8">DO IT</text>
+      <text class="s" x="-78" y="8">Build · Iterate · Ship</text>
+    </g>
+  </svg>
+</section>

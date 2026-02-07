@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Embodied-AI on Leido&#39;s Journey</title>
+    <link>http://localhost:1313/tags/embodied-ai/</link>
+    <description>Recent content in Embodied-AI on Leido&#39;s Journey</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/embodied-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yangguang: Vision-Driven NPCs Through Composed Language Models</title>
+      <link>http://localhost:1313/papers/yangguang-vision-driven-npcs/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/yangguang-vision-driven-npcs/</guid>
+      <description>An architecture combining Vision-Language Models and Large Language Models to create autonomous NPCs with genuine visual perception in Unity3D.</description>
+    </item>
+  </channel>
+</rss>
